@@ -25,5 +25,5 @@ If you have no way of finding out the correct encoding of the file, then try the
 * `iso-8859-1` (also known as `latin-1`)<br />(This is the encoding of all census data and much other data produced by government entities.)
 * `utf-16`
 
-If none of these work the likelyhood you are going to determine the encoding without additional information from the source is very low. In theory you may be able to guess the encoding based on the [language of the author](http://en.wikipedia.org/wiki/8859#cite_ref-0), however this not a recommended practice.
+If none of these work the likelihood you are going to determine the encoding without additional information from the source is very low. In theory you may be able to guess the encoding based on the [language of the author](http://en.wikipedia.org/wiki/8859#cite_ref-0), however this not a recommended practice.
 
