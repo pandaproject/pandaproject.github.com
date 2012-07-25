@@ -15,9 +15,9 @@ Individual Access tables should be exported to CSV before being imported into PA
 
 Unfortunantely, there are only two ways to export a table from an Access file: using Microsoft Access and using the command line. Worse, the latter version does not always work. If you have Access you can export single tables from your the file by [TKTK].
 
-If you are a programmer or are comfortable using the command line then you can try using <a href="http://linux.die.net/man/1/mdb-export">mdb-export</a> from the <a href="http://mdbtools.sourceforge.net/">mdb-tools</a> command line toolkit. This will export a table named `tablename` from an Access database named `filename.mdb`:
+If you are a programmer or are comfortable using the command line then you can try using [mdb-export](http://linux.die.net/man/1/mdb-export) from the [mdb-tools](http://mdbtools.sourceforge.net/) command line toolkit. This will export a table named `tablename` from an Access database named `filename.mdb`:
 
 `mdb-export filename.mdb tablename > tablename.csv`
 
-<strong>Note:</strong> mdb-tools only supports Access files with the `.mdb` extension. There is no alternative to Microsoft Access for exporting data from files with the `.access` extension.
+**Note:** mdb-tools only supports Access files with the `.mdb` extension. There is no alternative to Microsoft Access for exporting data from files with the `.access` extension.
 

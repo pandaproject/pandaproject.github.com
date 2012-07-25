@@ -15,9 +15,9 @@ CSV files that fail to import should be resaved using a more standard format.
 
 Although there is not defined standard for CSV formatting, there are commonly accepted parameters that will maximize the compatibility of the files. Abiding by these best practices will ensure PANDA can read your file.
 
-It is often possible to correct a badly formatted CSV file by simply opening it in your spreadsheet application and saving it as a new CSV file. Depending on your application you may be prompted with advanced formatting options (delimiter, etc). Usually it is best to leave these on the defaults. In <a href="http://www.libreoffice.org/">LibreOffice</a> you would choose **Save As** from the **File** menu and then select "Text CSV" as the file type.
+It is often possible to correct a badly formatted CSV file by simply opening it in your spreadsheet application and saving it as a new CSV file. Depending on your application you may be prompted with advanced formatting options (delimiter, etc). Usually it is best to leave these on the defaults. In [LibreOffice](http://www.libreoffice.org/) you would choose **Save As** from the **File** menu and then select "Text CSV" as the file type.
 
-If you are a programmer or are comfortable using the command line then the faster method is to use <a href="http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html">in2csv</a> from the <a href="http://csvkit.readthedocs.org/en/latest/index.html">csvkit</a> command line toolkit. This will read many different CSV formats, but always outputs in the most standard format. If in2csv fails to guess the format of your file you can specify details about how it is formatted using various flags.
+If you are a programmer or are comfortable using the command line then the faster method is to use [in2csv](http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html) from the [csvkit](http://csvkit.readthedocs.org/en/latest/index.html) command line toolkit. This will read many different CSV formats, but always outputs in the most standard format. If in2csv fails to guess the format of your file you can specify details about how it is formatted using various flags.
 
 For example, to convert a file with tab delimiters you can use the `-t` option.
 

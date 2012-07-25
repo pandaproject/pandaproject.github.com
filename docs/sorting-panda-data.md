@@ -23,7 +23,7 @@ Depending on the size of your dataset it may take some time to export. If your P
 
 ![](/images/panda-export-notification.png)
 
-You can open this CSV file for sorting in the spreadsheet application of your choice. If you are using <a href="http://www.libreoffice.org/">LibreOffice</a>, you will find the **Sort** option in the **Data** menu.
+You can open this CSV file for sorting in the spreadsheet application of your choice. If you are using [LibreOffice](http://www.libreoffice.org/), you will find the **Sort** option in the **Data** menu.
 
 ![](/images/libre-sort-data.png)
 

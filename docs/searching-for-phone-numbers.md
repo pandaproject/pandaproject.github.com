@@ -18,7 +18,7 @@ Phone numbers come in a dizzying variety of formats, including:
 
 Because of the array of complexity involved, the PANDA search engine may not be able to identify all matches if you search for a simple, ten-digit number.
 
-<strong>Note:</strong> Social Security Numbers, if delimited by whitespace, may also require this technique, but this is rare.
+**Note:** Social Security Numbers, if delimited by whitespace, may also require this technique, but this is rare.
 
 ### The Solution
 
@@ -54,5 +54,5 @@ Query `5556667777 or "555 666 7777" or 15556667777` matches.
 
 This should match virtually any phone number format.
 
-<strong>Note:</strong> You may wonder why `"1 555 666 7777"` is not part of the final query. It is redundant with `"555 666 7777"` which will match regardless of the presence or absence of an international code.
+**Note:** You may wonder why `"1 555 666 7777"` is not part of the final query. It is redundant with `"555 666 7777"` which will match regardless of the presence or absence of an international code.
 
