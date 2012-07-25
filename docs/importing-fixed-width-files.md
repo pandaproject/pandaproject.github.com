@@ -23,7 +23,7 @@ If you are a programmer or are comfortable using the command line then the faste
 
 This example converts the Census 2000 fixed-width geographic headers file from fixed-width to CSV:
 
-`in2csv -e iso-8859-1 -f fixed -s census2000_geo_schema.csv usgeo_excerpt.upl > usgeo.csv`
+`in2csv -e iso-8859-1 -f fixed -s geo_schema.csv usgeo.upl > usgeo.csv`
 
 **Note:** A library of fixed-width schemas for common files is maintained as the [ffs project](https://github.com/onyxfish/ffs).
 
