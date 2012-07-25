@@ -43,7 +43,7 @@ Query `5556667777 or "555 666 7777"` matches:
 
 The second part of the query will match versions of the number that are delimited by whitespace (or other characters). The quotes ensure each part of the number is matched in order. However, this will still not match international codes. In order to match these we need to add two more parts to the query:
 
-Query `5556667777 or "555 666 7777" or 15556667777 or "1 555 666 7777"` matches.
+Query `5556667777 or "555 666 7777" or 15556667777` matches.
 
 * 5556667777
 * 555-666-7777
@@ -53,4 +53,6 @@ Query `5556667777 or "555 666 7777" or 15556667777 or "1 555 666 7777"` matches.
 * +15556667777
 
 This should match virtually any phone number format.
+
+<strong>Note:</strong> You may wonder why `"1 555 666 7777"` is not part of the final query. It is redundant with `"555 666 7777"` which will match regardless of the presence or absence of an international code.
 
