@@ -41,7 +41,7 @@ Query `5556667777 or "555 666 7777"` matches:
 * (555) 666 7777
 * +1 555-666-7777
 
-The second part of the query will match versions of the number that are delimited by whitespace (or other characters). However, this will still not match international codes. In order to match these we need to add two more parts to the query:
+The second part of the query will match versions of the number that are delimited by whitespace (or other characters). The quotes ensure each part of the number is matched in order. However, this will still not match international codes. In order to match these we need to add two more parts to the query:
 
 Query `5556667777 or "555 666 7777" or 15556667777 or "1 555 666 7777"` matches.
 
