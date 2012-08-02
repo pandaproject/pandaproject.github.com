@@ -33,7 +33,7 @@ To search across a specific dataset visit its details page. At the top of that p
 
 This search field functions identically to the universal search function described above, with the exception that it only searches within a single dataset. For details of how to use advanced search syntax or to search specific columns, click the "More search options" link.
 
-To learn how to search *for datasets*, rather than data, read [Searching for datasets](/cookbook/searching-datasets.html).
+To learn how to search *for datasets*, rather than data, read [Searching for datasets](/docs/searching-datasets.html).
 
 ### Searching specific columns of data within a dataset
 

@@ -11,7 +11,7 @@ To search for a dataset click the "Find a Dataset" link in the navigation bar at
 
 ![](/images/panda-find-dataset.png)
 
-Once you've made a selection you'll find yourself on the dataset search page. This search form works exactly the same as when [Searching for data](/cookbook/searching-data.html), except in this case we are searching the information *about* the datasets, rather than the data within them.
+Once you've made a selection you'll find yourself on the dataset search page. This search form works exactly the same as when [Searching for data](/docs/searching-data.html), except in this case we are searching the information *about* the datasets, rather than the data within them.
 
 Please note that *all* information shown in the results table is searchable, including the column names. For information on advanced search features hover your mouse over the "Advanced" link.
 
