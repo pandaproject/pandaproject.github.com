@@ -39,5 +39,5 @@ In the Edit window you can give your dataset a better **Name**, add a detailed *
 
 That's it! Your dataset will continue to import on its own. If your administrator has configured email you will receive an email when it is finished. If not the "Notifications" counter in the upper-right of your PANDA window will turn blue.
 
-To learn how to search your data read [Searching for data](/cookbook/searching-data.html).
+To learn how to search your data read [Searching for data](/docs/searching-data.html).
 

@@ -27,3 +27,4 @@ This example converts the Census 2000 fixed-width geographic headers file from f
 
 **Note:** A library of fixed-width schemas for common files is maintained as the [ffs project](https://github.com/onyxfish/ffs).
 
+**Note:** Whenever converting a file to import it into PANDA you should also upload the original as [related file](/docs/storing-related-files.html).

@@ -35,8 +35,8 @@ By providing a single place to store all your newsroom's data PANDA will encoura
 
 Read more on the following subjects:
 
-* [Uploading a dataset](/cookbook/uploading.html)
-* [Searching for data](/cookbook/searching-data.html)
-* [Searching for datasets](/cookbook/searching-datasets.html)
-* [Subscribing to search results](/cookbook/search-subscriptions.html)
+* [Uploading a dataset](/docs/uploading.html)
+* [Searching for data](/docs/searching-data.html)
+* [Searching for datasets](/docs/searching-datasets.html)
+* [Subscribing to search results](/docs/search-subscriptions.html)
 

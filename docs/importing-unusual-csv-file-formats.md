@@ -23,3 +23,4 @@ For example, to convert a file with tab delimiters you can use the `-t` option.
 
 `in2csv -t tabbed.csv > standard.csv`
 
+**Note:** Whenever converting a file to import it into PANDA you should also upload the original as [related file](/docs/storing-related-files.html).

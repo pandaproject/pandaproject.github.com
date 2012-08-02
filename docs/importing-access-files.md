@@ -21,3 +21,4 @@ If you are a programmer or are comfortable using the command line then you can t
 
 **Note:** mdb-tools only supports Access files with the `.mdb` extension. There is no alternative to Microsoft Access for exporting data from files with the `.access` extension.
 
+**Note:** Whenever converting a file to import it into PANDA you should also upload the original as [related file](/docs/storing-related-files.html).

@@ -21,3 +21,4 @@ If you *are* a programmer or are comfortable using the command line then the fas
 
 `in2csv filename.dbf > filename.csv`
 
+**Note:** Whenever converting a file to import it into PANDA you should also upload the original as [related file](/docs/storing-related-files.html).
