@@ -9,6 +9,8 @@ If you are reading this documentation it is probably because your organization h
 
 ### What is PANDA?
 
+<iframe src="http://player.vimeo.com/video/47684166" width="550" height="309" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/47684166">Welcome to PANDA!</a> from <a href="http://vimeo.com/pandaproject">PANDA Project</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
 First and foremost PANDA is a "data library", which means that it stores all the data you work with--voter registration records, police reports, water testing results, etc. When you upload your data to PANDA it is stored safely away so that it can be easily found again, either by yourself or by another reporter in your organization.
 
 PANDA is also a search engine. By uploading your datasets to PANDA you make them searchable by everyone in your organization. This search feature is designed to work like Google, so you don't need to learn a new way of exploring the data.
