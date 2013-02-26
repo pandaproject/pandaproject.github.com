@@ -5,6 +5,8 @@ title: Welcome to PANDA!
 
 ![High five!](/images/high-five.jpg)
 
+<h2><a href="http://demo.pandaproject.net">Try the live demo now &raquo;</a></h2><br />
+
 If you are reading this documentation it is probably because your organization has started using PANDA to manage its newsroom data. This brief introduction will introduce you to PANDA and show you how it can save you time, keep your data safe and improve the quality of your reporting. More detailed descriptions of the features of PANDA can be found in sections following the introduction.
 
 ### What is PANDA?
