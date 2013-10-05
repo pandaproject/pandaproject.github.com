@@ -37,6 +37,7 @@ a.go-home {
     text-decoration: none;
     opacity: .8;
     padding-left: 40px;
+    margin-left: -40px;
 }
 
 a.go-home:hover {
@@ -49,7 +50,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 700;
     margin: 0 0 .5em;
 }
@@ -132,6 +133,7 @@ footer p {
 }
 
 #hero h1 {
+    font-size: 7em;
     margin-bottom: 0;
 }
 
