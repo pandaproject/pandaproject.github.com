@@ -30,14 +30,28 @@ a {
     color: #777;
 }
 
+a.go-home {
+    background: url('../images/panda_logo_30x24.png') no-repeat 0 0;
+    text-transform: uppercase;
+    color: #ccc;
+    text-decoration: none;
+    opacity: .8;
+    padding-left: 40px;
+}
+
+a.go-home:hover {
+    opacity: 1;
+}
+
 h1, h2, h3 {
-    font-family: "Oswald", "Helvetica Neue", Arial, sans-serif; line-height: 1.1;
+    font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.1;
 }
 
 h1 {
     font-size: 7em;
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 .5em;
 }
 
 h1 img.logo {
@@ -55,6 +69,11 @@ h1 span {
 .container {
     max-width: 960px;
     margin: 1em auto;
+}
+
+#header-bar {
+    margin-top: 2em;
+    margin-bottom: 0;
 }
 
 .clearfix:before,
@@ -90,6 +109,18 @@ footer {
     padding: 3em 0 1em;
 }
 
+footer ul {
+    list-style: none;
+    margin: 3em 0;
+}
+
+footer li {
+    float: left;
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
 footer p {
     font-size: .83em;
     text-align: center;
@@ -97,6 +128,10 @@ footer p {
 
 #hero header {
     text-align: center;
+}
+
+#hero h1 {
+    margin-bottom: 0;
 }
 
 header h2 {
