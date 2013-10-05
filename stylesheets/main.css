@@ -88,6 +88,7 @@ footer {
 
 footer {
     padding: 3em 0 1em;
+    clear:left;
 }
 
 footer p {
@@ -208,4 +209,21 @@ ol > li:before {
     background-color: #fff;
     font-weight: bold;
     text-align: center;
+}
+
+#docs-home div.group {
+    float:left;
+}
+
+#docs-home ul {
+    padding:0;
+    margin-right:1em;
+}
+
+#docs-home li {
+    list-style:none;
+}
+
+#docs-home li a {
+    text-decoration:none;
 }

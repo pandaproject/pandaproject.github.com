@@ -34,8 +34,7 @@ h1 {
 }
 
 a {
-  color:#39c;
-  font-weight:400;
+  color:#777;
   text-decoration:none;
 }
 
@@ -103,6 +102,10 @@ header {
   float:left;
 }
 
+header h1 a {
+    color:#393939;
+}
+
 strong {
   color:#222;
   font-weight:700;
@@ -116,10 +119,6 @@ header ul {
 header li {
     font-size:.8em;
     line-height:1.7em;
-}
-
-header li a {
-    font-weight:300;
 }
 
 header img {
