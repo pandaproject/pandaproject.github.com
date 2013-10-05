@@ -252,7 +252,7 @@ ol > li:before {
 
 #docs-home ul {
     padding:0;
-    margin-right:1em;
+    margin-right:2em;
 }
 
 #docs-home li {
@@ -261,4 +261,5 @@ ol > li:before {
 
 #docs-home li a {
     text-decoration:none;
+    font-size:.9em;
 }
