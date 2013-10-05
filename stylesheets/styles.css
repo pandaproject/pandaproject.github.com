@@ -1,19 +1,21 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic);
 
 body {
   padding:25px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:18px/1.5 Oswald, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#555;
   font-weight:300;
 }
 
-p {
-    font: 15px/1.5 Georgia, serif;
-    color: #777;
+p, li {
+    font: 18px/1.5 Vollkorn, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color: #393939;
   margin:0 0 20px;
 }
 
@@ -26,15 +28,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
-}
-
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
+  font-size:3em;
+  margin-bottom:1em;
+  font-weight:300;
 }
 
 a {
@@ -105,7 +101,6 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
 }
 
 strong {
@@ -118,13 +113,27 @@ header ul {
     list-style-type: none;
 }
 
+header li {
+    font-size:.8em;
+    line-height:1.7em;
+}
+
+header li a {
+    font-weight:300;
+}
+
 header img {
     background-color: #333;
     padding: 3px;
 }
 
 header h2 {
-    margin-bottom: 7px; 
+    margin-bottom: .5em;
+    font-weight:300;
+}
+
+header div.group {
+    margin-bottom:1em;
 }
 
 section {
