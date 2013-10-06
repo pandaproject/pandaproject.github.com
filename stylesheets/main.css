@@ -229,7 +229,7 @@ ol {
 ol > li {
     font-size: 1.2em;
     position: relative;
-    margin: 0 0 1.5em 3em;
+    margin: 0 0 1.5em 2em;
     list-style: none;
 }
 ol > li:before {
@@ -301,6 +301,9 @@ ol > li:before {
     }
     #how ol {
         padding: 0;
+    }
+    ol > li {
+        margin-left: 3em;
     }
     #docs-home ul {
         margin-right: 3em;
