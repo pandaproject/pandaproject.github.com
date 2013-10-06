@@ -116,8 +116,8 @@ header ul {
 }
 
 header li {
-    font-size:.8em;
-    line-height:1.7em;
+    font-size: .8em;
+    line-height: 1.7em;
 }
 
 header li a {
@@ -180,6 +180,12 @@ footer {
     opacity: 1;
 }
 
+@media only screen and (max-width: 1040px) {
+    #header-bar a.go-home {
+        margin-left: 0;
+    }
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -198,14 +204,17 @@ footer {
   }
   
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 2em 0 3em;
+    margin: 0 0 3em;
   }
   
   header a small {
     display:inline;
+  }
+
+  header li {
+      font-size: 1em;
   }
 }
 
