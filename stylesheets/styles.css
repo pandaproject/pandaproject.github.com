@@ -35,7 +35,6 @@ h1 {
 
 a {
   color:#777;
-  text-decoration:none;
 }
 
 a small {
@@ -119,6 +118,10 @@ header ul {
 header li {
     font-size:.8em;
     line-height:1.7em;
+}
+
+header li a {
+  text-decoration:none;
 }
 
 header img {
