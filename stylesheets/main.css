@@ -76,7 +76,6 @@ h1 span {
     opacity: 1;
 }
 
-
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -127,12 +126,14 @@ footer {
 footer ul {
     list-style: none;
     margin: 3em 0;
+    padding: 0;
 }
 
 footer li {
     float: left;
     display: block;
     width: 33%;
+    padding: 0 .5em;
     text-align: center;
 }
 
@@ -283,7 +284,7 @@ ol > li:before {
     .container {
         margin: 1.5em;
     }
-    a.go-home {
+    #header-bar a.go-home {
         margin-left: 0;
     }
     #hero h1 {
@@ -307,10 +308,56 @@ ol > li:before {
     body {
         font-size: 16px;
     }
+    h1 {
+        font-size: 4em;
+    }
     #hero h1 {
         font-size: 5em;
     }
     header h2 {
         font-size: 2.2em;
+    }
+    #what li {
+        width: auto;
+        float: none;
+        margin: 0 1em 1.5em;
+    }
+    #what p {
+        margin: .5em 1em;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    h1 span {
+        margin-top: .5em;
+    }
+    #why .icon,
+    #why li img {
+        font-size: 1em;
+        width: 1em;
+        text-align: center;
+        margin: 0 .5em 0 -1.5em;
+    }
+    #why li img {
+        margin-top: .33em;
+    }
+    #why li {
+        padding-left: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3em;
+    }
+    footer li {
+        float: none;
+        width: auto;
+        padding: .5em 0;
+        text-align: left;
+    }
+    footer p {
+        text-align: left;
     }
 }
