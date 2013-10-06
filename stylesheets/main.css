@@ -30,20 +30,6 @@ a {
     color: #777;
 }
 
-a.go-home {
-    background: url('../images/panda_logo_30x24.png') no-repeat 0 0;
-    text-transform: uppercase;
-    color: #ccc;
-    text-decoration: none;
-    opacity: .8;
-    padding-left: 40px;
-    margin-left: -40px;
-}
-
-a.go-home:hover {
-    opacity: 1;
-}
-
 h1, h2, h3 {
     font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
     line-height: 1.1;
@@ -72,10 +58,24 @@ h1 span {
     margin: 1em auto;
 }
 
+/* copied to styles.css */
 #header-bar {
     margin-top: 2em;
     margin-bottom: 0;
 }
+#header-bar a.go-home {
+    background: url('../images/panda_logo_30x24.png') no-repeat 0 0;
+    text-transform: uppercase;
+    color: #ccc;
+    text-decoration: none;
+    opacity: .8;
+    padding-left: 40px;
+    margin-left: -40px;
+}
+#header-bar a.go-home:hover {
+    opacity: 1;
+}
+
 
 .clearfix:before,
 .clearfix:after {
