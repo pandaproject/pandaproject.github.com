@@ -253,7 +253,7 @@ ol > li:before {
     margin-right: .5em;
     line-height: 1;
     padding-top: .5em;
-    border: 4px solid #ff0000;
+    border: 4px solid #777;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
