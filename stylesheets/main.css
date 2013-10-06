@@ -263,21 +263,22 @@ ol > li:before {
 }
 
 #docs-home div.group {
-    float:left;
+    float: left;
 }
 
 #docs-home ul {
-    padding:0;
-    margin-right:2em;
+    padding: 0;
+    margin-right: 2em;
+    list-style: none;
 }
 
 #docs-home li {
-    list-style:none;
+    font-size: .9em;
+    margin-bottom: .33em;
 }
 
 #docs-home li a {
     text-decoration: none;
-    font-size: .9em;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -301,6 +302,12 @@ ol > li:before {
     }
     #how ol {
         padding: 0;
+    }
+    #docs-home ul {
+        margin-right: 3em;
+    }
+    #docs-home li {
+        font-size: 1em;
     }
 }
 
@@ -332,6 +339,9 @@ ol > li:before {
         margin-top: 0;
         padding-top: 0;
     }
+    #docs-home li {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -350,6 +360,9 @@ ol > li:before {
     }
     #why li {
         padding-left: 1.5em;
+    }
+    #docs-home ul {
+        margin-right: 0;
     }
 }
 
