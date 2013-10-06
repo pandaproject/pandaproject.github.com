@@ -17,22 +17,16 @@
         <div id="header-bar" class="container">
             <a class="go-home" href="/">Home</a>
         </div>
-      <header>
-        <h1><a href="/docs/">PANDA<br/>Docs</a></h1>
-
-        {% include toc.html %}
-
-      </header>
       <section>
         <h2>{{ page.title }}</h2>
         {{ content }}
-        <a href="/docs/">&laquo; Panda docs home</a>
       </section>
-      <footer>
-      </footer>
+      <header>
+        <h1><a href="/docs/">PANDA<br/>Docs</a></h1>
+        {% include toc.html %}
+      </header>
     </div>
     <script src="/javascripts/scale.fix.js"></script>
-    
   </body>
 </html>
 
