@@ -326,6 +326,12 @@ ol > li:before {
         margin: .5em 1em;
         text-align: left;
     }
+    footer,
+    footer .container {
+        background-color: #fff;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -348,6 +354,9 @@ ol > li:before {
 }
 
 @media only screen and (max-width: 480px) {
+    #hero h1 {
+        font-size: 4em;
+    }
     h1 {
         font-size: 3em;
     }
@@ -359,5 +368,17 @@ ol > li:before {
     }
     footer p {
         text-align: left;
+    }
+    ol > li {
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #hero h1 {
+        font-size: 3.5em;
+    }
+    header h2 {
+        font-size: 1.8em;
     }
 }
