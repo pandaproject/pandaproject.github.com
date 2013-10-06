@@ -100,8 +100,7 @@ article {
 
 #hero,
 #screencast,
-#how,
-footer {
+#how {
     background-color: #e0e0e0;
 }
 
@@ -120,12 +119,12 @@ footer {
 
 footer {
     padding: 3em 0 1em;
-    clear:left;
+    clear: both;
 }
 
 footer ul {
     list-style: none;
-    margin: 3em 0;
+    margin: 0 0 3em;
     padding: 0;
 }
 
@@ -332,12 +331,6 @@ ol > li:before {
     #what p {
         margin: .5em 1em;
         text-align: left;
-    }
-    footer,
-    footer .container {
-        background-color: #fff;
-        margin-top: 0;
-        padding-top: 0;
     }
     #docs-home li {
         font-size: 1.2em;
