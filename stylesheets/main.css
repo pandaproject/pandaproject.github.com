@@ -263,21 +263,22 @@ ol > li:before {
 }
 
 #docs-home div.group {
-    float:left;
+    float: left;
 }
 
 #docs-home ul {
-    padding:0;
-    margin-right:2em;
+    padding: 0;
+    margin-right: 2em;
+    list-style: none;
 }
 
 #docs-home li {
-    list-style:none;
+    font-size: .9em;
+    margin-bottom: .33em;
 }
 
 #docs-home li a {
     text-decoration: none;
-    font-size: .9em;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -301,6 +302,12 @@ ol > li:before {
     }
     #how ol {
         padding: 0;
+    }
+    #docs-home ul {
+        margin-right: 3em;
+    }
+    #docs-home li {
+        font-size: 1em;
     }
 }
 
@@ -326,6 +333,15 @@ ol > li:before {
         margin: .5em 1em;
         text-align: left;
     }
+    footer,
+    footer .container {
+        background-color: #fff;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #docs-home li {
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width: 540px) {
@@ -345,9 +361,15 @@ ol > li:before {
     #why li {
         padding-left: 1.5em;
     }
+    #docs-home ul {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    #hero h1 {
+        font-size: 4em;
+    }
     h1 {
         font-size: 3em;
     }
@@ -359,5 +381,17 @@ ol > li:before {
     }
     footer p {
         text-align: left;
+    }
+    ol > li {
+        margin-left: 2em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #hero h1 {
+        font-size: 3.5em;
+    }
+    header h2 {
+        font-size: 1.8em;
     }
 }
